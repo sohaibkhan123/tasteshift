@@ -173,33 +173,10 @@ const Auth: React.FC<AuthProps> = ({ onLogin }) => {
             </button>
           </form>
 
-          {/* Social Auth */}
-          <div className="mt-8">
-            <div className="relative mb-6">
-              <div className="absolute inset-0 flex items-center"><div className="w-full border-t border-gray-100"></div></div>
-              <div className="relative flex justify-center text-[10px] uppercase tracking-widest font-black text-gray-300">
-                <span className="bg-white/95 px-4">Or continue with</span>
-              </div>
-            </div>
 
-            <div className="grid grid-cols-2 gap-3">
-              <button className="flex items-center justify-center gap-2 py-3 border border-gray-100 rounded-2xl hover:bg-gray-50 transition-colors">
-                <Chrome size={18} className="text-gray-600" />
-                <span className="text-xs font-bold text-gray-600">Google</span>
-              </button>
-              <button className="flex items-center justify-center gap-2 py-3 border border-gray-100 rounded-2xl hover:bg-gray-50 transition-colors">
-                <Github size={18} className="text-gray-600" />
-                <span className="text-xs font-bold text-gray-600">GitHub</span>
-              </button>
-            </div>
-          </div>
+         
 
-          <div className="mt-8 text-center">
-            <p className="text-xs text-gray-400 font-medium">
-              By continuing, you agree to our 
-              <button className="text-brand-dark font-bold ml-1 hover:underline">Terms of Service</button>
-            </p>
-          </div>
+         
         </div>
       </div>
     </div>
