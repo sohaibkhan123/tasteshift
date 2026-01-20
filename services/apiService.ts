@@ -18,7 +18,7 @@ const getApiUrl = () => {
 
   // 3. Production Fallback (REPLACE THIS WITH YOUR RENDER.COM URL AFTER DEPLOYING BACKEND)
   // Example: 'https://tasteshift-backend.onrender.com/api'
-  return 'https://tasteshift-backend.onrender.com/api';
+  return 'https://tasteshift-18ym.onrender.com/api';
 };
 
 const API_URL = getApiUrl();
