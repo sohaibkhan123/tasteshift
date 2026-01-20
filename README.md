@@ -1,1 +1,14 @@
-Taste Shift is an AI-powered recipe platform built with the MERN stack that provides personalized cooking recommendations. It features smart ingredient-based search, dietary filtering, and interactive cooking guidance through an AI chatbot. The platform combines community-driven content sharing with intelligent recipe discovery, offering users a modern, responsive web experience for finding and sharing culinary inspiration.
+
+
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Run the app:
+   `npm run dev`
+3. Run the backend:
+   `node server.js`
