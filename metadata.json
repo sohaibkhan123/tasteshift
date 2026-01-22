@@ -1,8 +1,0 @@
-{
-  "name": "Taste Shift Fullstack",
-  "description": "Smart social recipe platform with Node.js/Express/MongoDB Atlas backend integration and AI culinary assistance.",
-  "requestFramePermissions": [
-    "camera",
-    "microphone"
-  ]
-}
